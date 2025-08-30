@@ -105,3 +105,7 @@ Measure Table 3
 5. Publish to Power BI Service and enable Scheduled / Incremental refresh.  
 
 ---
+
+<img width="1291" height="722" alt="Screenshort 2" src="https://github.com/user-attachments/assets/69d80715-1efe-4742-9043-aec42e48baa6" />
+
+
