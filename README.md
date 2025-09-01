@@ -1,14 +1,14 @@
 # Loan-Default-Analysis-Power-BI-
 Power BI Loan Default Analysis – Interactive dashboards &amp; DAX measures to track loan distribution, borrower profiles, and default risk. Includes YOY/YTD trends, decomposition tree, and demographics insights.
-# 📊 Loan Default Analysis (Power BI)
+#  Loan Default Analysis (Power BI)
 
-## 🚀 Project Overview  
+##  Project Overview  
 An end-to-end Power BI project that analyses loan applicant data to monitor loan distribution, detect risk patterns, and track default trends.  
 The report uses Power Query + DAX measures (organized in measure tables) to drive interactive dashboards for business users.
 
 ---
 
-## 🔎 Problem Statement  
+##  Problem Statement  
 Financial institutions need clear, visual insights to:
 - Identify borrower groups with elevated default risk.  
 - Understand how loans are distributed by purpose, age, credit score and employment.  
@@ -16,7 +16,7 @@ Financial institutions need clear, visual insights to:
 
 ---
 
-## 🗂 Dataset  
+##  Dataset  
 - Applicant demographics: age group, education, marital status, dependents.  
 - Financial attributes: income, loan amount, credit score bins, mortgage flag.  
 - Loan attributes: purpose, term, default flag, year.  
@@ -24,7 +24,7 @@ Financial institutions need clear, visual insights to:
 
 ---
 
-## 🧰 Tools & Techniques  
+##  Tools & Techniques  
 - Power BI Desktop & Power BI Service (Dataflow, publishing options visible)  
 - Power Query for cleaning & transformations  
 - DAX measures organized into Measure Table 1 / 2 / 3  
@@ -32,7 +32,7 @@ Financial institutions need clear, visual insights to:
 
 ---
 
-## 📐 Measures  
+##  Measures  
 
 Measure Table 1  
 - Average income by Employment type  
@@ -57,7 +57,7 @@ Measure Table 3
 
 ---
 
-## 📑 Dashboard Pages & Key Visuals  
+##  Dashboard Pages & Key Visuals  
 
 ### 1) Loan Default & Overview  
 - Loan Amount by Purpose (step/line visual)  
@@ -81,7 +81,7 @@ Measure Table 3
 
 ---
 
-## 🧹 Data Preparation & Validation  
+##  Data Preparation & Validation  
 1. Dataflow / import into Power BI Desktop.  
 2. Column definitions, data types & profiling (Data pane & Query Editor used).  
 3. Create and group DAX measures into Measure Table 1/2/3.  
@@ -90,14 +90,14 @@ Measure Table 3
 
 ---
 
-## 🔍 Insights  
+##  Insights  
 - Default rate trends are shown by year and by employment type.  
 - Loan distribution and median loan amount segmented by credit score bins and age groups.  
 - The decomposition tree and YTD / YOY visuals provide drill-down for where loan value (and risk) is concentrated.  
 
 ---
 
-## 🛠 How to Run  
+##  How to Run  
 1. Open Loan_Report.pbix in Power BI Desktop.  
 2. Verify data sources in Transform Data (Power Query).  
 3. Confirm measure tables exist (Measure Table 1 / 2 / 3) and refresh the model.  
